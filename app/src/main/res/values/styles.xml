@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonMaterial" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/RedButtonThemeOverlay</item>
+    </style>
+    <style name="RedButtonThemeOverlay">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+</resources>
